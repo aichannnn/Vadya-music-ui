@@ -29,6 +29,9 @@ Vadya is a sleek and responsive music streaming UI built using **React + Vite**,
 
 ---
 
+## Live website
+https://vadya.netlify.app/
+
 ## 📸 Screenshots
 -home page
 <img width="957" alt="image" src="https://github.com/user-attachments/assets/ebe364cc-6e41-42f1-9795-76cc3905a730" />
