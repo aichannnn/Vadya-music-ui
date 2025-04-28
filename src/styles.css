@@ -5,9 +5,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-   background: #000;
-   color: #fff;
-   zoom:80%;
+  background: #000;
+  color: #fff;
+  zoom: 80%;
 }
 
 .container{
@@ -1518,5 +1518,132 @@ border-radius:10px ;
   .popup-close {
     font-size: 14px;
     margin-top: 15px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .auth-container, .home-container {
+    width: 45%;
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    flex-direction: column;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .auth-container, .home-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .auth-container h1 {
+    font-size: 2em;
+    margin-top: 2rem;
+  }
+
+  .input-box, .input-box2, .input-box3 {
+    margin-left: 5%;
+    width: 90%;
+  }
+
+  .btn {
+    margin-left: 5%;
+    width: 90%;
+    margin-top: 10%;
+  }
+
+  .content {
+    margin-left: 0;
+    margin-top: 1em;
+    width: 100%;
+  }
+
+  .container-content {
+    font-size: 20px;
+    margin-top: 10rem;
+  }
+
+  .btn1 {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .auth-container, .home-container {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .auth-container-img{
+    margin-left: 20%;
+  }
+
+  .auth-container h1 {
+    font-size: 1.8em;
+    margin-top: 2rem;
+  }
+
+  .input-box input {
+    font-size: 16px;
+    height: 2.8em;
+  }
+
+  .btn {
+    margin-top: 5%;
+    font-size: 16px;
+    width: 80%;
+  }
+
+  .content {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .container-content {
+    font-size: 18px;
+    margin-top: 10rem;
+  }
+
+  .btn1 {
+    width: 70%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .auth-container h1 {
+    font-size: 1.5em;
+  }
+
+  .input-box, .input-box2, .input-box3 {
+    margin-left: 5%;
+    width: 90%;
+  }
+
+  #btn {
+    margin-top: 5%;
+    font-size: 14px;
+    width: 80%;
+  }
+
+  .content {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .container-content {
+    font-size: 16px;
+    margin-top: 5rem;
+  }
+
+  .btn1 {
+    width: 60%;
+    margin-left: 20%;
   }
 }
