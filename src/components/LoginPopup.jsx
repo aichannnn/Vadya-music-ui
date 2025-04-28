@@ -21,7 +21,7 @@ function LoginPopup({ onClose }) {
         <div className="popup-content">
           <div className="popup-image">
             <img
-              src='./src/assets/img.jpg'
+              src='../src/assets/img.jpg'
             />
           </div>
 
