@@ -22,7 +22,6 @@ function LoginPopup({ onClose }) {
           <div className="popup-image">
             <img
               src='./src/assets/img.jpg'
-              alt="Spotify"
             />
           </div>
 
